@@ -8,8 +8,11 @@ body {
 }
 img {
   border-radius: 100% ;
-  
+
   margin-right: 20px;
 
 
+}
+p{
+  font-family:"roboto";
 }
