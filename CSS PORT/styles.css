@@ -20,3 +20,7 @@ h1, h2 {
   font-family:"oswald";
   text-align:center;
 }
+#lists {
+  width: 70%;
+    margin: auto;
+}
