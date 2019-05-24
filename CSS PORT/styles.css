@@ -43,6 +43,7 @@ h1, h2 {
     margin:0 auto;
 }
 .altogether{display: flex;}
+
 .bruh :hover{
   background-color: brown;
     transition:.5s;
@@ -52,7 +53,7 @@ h1, h2 {
   box-sizing: border-box;
 }
 .column {
-  width : 300px;
+  width : 00px;
 }
 
 .hobbies{float: right;}
