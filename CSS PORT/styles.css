@@ -1,4 +1,5 @@
-body {
+@media screen and (min-width: 480px) {
+ body {
   background-color:black ;
  color: #FFF0F5	;
  margin: 0 auto;
@@ -6,16 +7,33 @@ body {
  box-sizing: border-box;
 
 }
+}
 img {
   border-radius: 100% ;
-
-  margin-left: 75px;
-
+opacity:0.9;
+  margin-left: 20spx;
+  width : 600px;
 
 }
+ .trial{
+   background-image:url("/home/moringa/Desktop/Assignments/landing-page/images/screens.jpg");
+   background-position: center ,center;
+   background-size: contain;
+   width: 100%;
+   heigh:200%;
+  background-repeat: no-repeat;
+
+ }
 p{
   font-family:"roboto";
 }
+
+.bruh{ color: #FFF5EE;
+   font-family: 'Akronims'
+   text-decoration: none;
+   border: 3px dotted #FFF0F5;
+
+ }
 h1, h2 {
   font-family:"oswald";
   text-align:center;
@@ -23,7 +41,12 @@ h1, h2 {
 #lists {
   width: 70%;
     margin:0 auto;
+}
 
+.bruh :hover{
+  background-color: brown;
+    transition:.5s;
+    cursor:pointer;
 }
 * {
   box-sizing: border-box;
