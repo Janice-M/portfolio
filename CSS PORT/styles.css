@@ -68,15 +68,50 @@ li {
 
 }
 
+.logo {
+  display: inline-block;
+}
+
 .logo img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
-ul {
+nav ul {
+  display: inline;
+  float: right;
   list-style-type: none;
 }
 
-li {
+nav li {
   display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-image: url("../images/dolan.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 918px;
+}
+
+nav h1 {
+  line-height: 12;
+  font-size: 40px;
+  text-align: center;
+}
+
+.intro {
+  background-image: url("https://www.graphicsprings.com/filestorage/stencils/6e558afaa776068af2e337251927c306.png?width=500&height=500");
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
 }
