@@ -20,11 +20,8 @@ img {
 .hobbies{
   margin-left: 100px;
 }
-.languages{
 
-  margin-left: 300px;
-}
-h2{margin-left: -150px}
+
 
 p{
   font-family:"roboto";
@@ -33,7 +30,6 @@ p{
 .bruh{ color: #FFF5EE;
   font-family: 'Akronims'
   text-decoration: none;
-  border: 3px dotted #FFF0F5;
 
 }
 h1, h2 {
@@ -63,5 +59,24 @@ h1, h2 {
 
 .hobbies{float: right;}
 
-li {font-family: 'Acme', sans-serif;
+li {
+  font-family: 'Acme', sans-serif;
+}
+
+.languages , h2 {
+  text-align: center;
+
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
 }
