@@ -1,24 +1,25 @@
 @media screen and (min-width: 480px) {
- body {
-  background-color:black ;
- color: #FFF0F5	;
- margin: 0 auto;
- width: 1000px;
- box-sizing: border-box;
- font-size: 19px;
+  body {
+    background-color:black ;
+    color: #FFF0F5	;
+    margin: 0 auto;
+    width: 960px;
+    box-sizing: border-box;
+    font-size: 19px;
 
+  }
 }
-}
+
 img {
   border-radius: 100% ;
-opacity:0.9;
-  margin-left: 100px;
-  width : 600px;
-
+  opacity:0.9;
+  margin:0 auto;
+  display: block;
 }
- .hobbies{
-   margin-left: 100px;
- }
+
+.hobbies{
+  margin-left: 100px;
+}
 .languages{
 
   margin-left: 300px;
@@ -30,18 +31,18 @@ p{
 }
 
 .bruh{ color: #FFF5EE;
-   font-family: 'Akronims'
-   text-decoration: none;
-   border: 3px dotted #FFF0F5;
+  font-family: 'Akronims'
+  text-decoration: none;
+  border: 3px dotted #FFF0F5;
 
- }
+}
 h1, h2 {
   font-family:"oswald";
   text-align:center;
 }
 #lists {
   width: 70%;
-    margin:0 auto;
+  margin:0 auto;
 }
 .altogether{display: flex;
 
@@ -50,8 +51,8 @@ h1, h2 {
 
 .bruh :hover{
   background-color: brown;
-    transition:.5s;
-    cursor:pointer;
+  transition:.5s;
+  cursor:pointer;
 }
 * {
   box-sizing: border-box;
@@ -62,5 +63,5 @@ h1, h2 {
 
 .hobbies{float: right;}
 
- li {font-family: 'Acme', sans-serif;
+li {font-family: 'Acme', sans-serif;
 }
