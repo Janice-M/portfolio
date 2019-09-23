@@ -16,7 +16,7 @@
   background-color: black;
   margin: 0 auto;
   width: 720px;
-  box-sizing: border-box;
+  
   font-size: 19px;
 }
 
@@ -127,6 +127,6 @@ footer {
 
 .janice{
   border-radius: 50%;
-  max-width:30%;
+  max-width:50%;
   height: auto;
 }
