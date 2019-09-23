@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
   body {
-    background-color:black ;
+    background-color:black;
     color: #FFF0F5	;
     margin: 0 auto;
     width: 960px;
@@ -94,13 +94,12 @@ nav li a {
   color: white;
 }
 
-nav {
-  background-image: url("/images/portfolio.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 918px;
+/* nav {
+  
+  height: 918px ;
+  text-align: center;
 }
-
+ */
 nav h1 {
   line-height: 12;
   font-size: 40px;
@@ -108,10 +107,16 @@ nav h1 {
 }
 
 .intro {
-  background-image: url("https://www.graphicsprings.com/filestorage/stencils/6e558afaa776068af2e337251927c306.png?width=500&height=500");
+  background-image: url("../images/5eccf56e16885a7fb926489bccd21356-dark-geometric-metal-pattern-background.jpg");
 }
 
 footer {
   text-align: center;
   font-size: 12px;
+}
+
+.janice{
+  border-radius: 50%;
+  max-width:30%;
+  height: auto;
 }
