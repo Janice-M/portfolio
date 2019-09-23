@@ -1,13 +1,23 @@
-@media screen and (min-width: 480px) {
-  body {
+
+/*   body {
     background-color:black;
-    color: #FFF0F5	;
+    color: whitesmoke	;
+    
     margin: 0 auto;
     width: 960px;
     box-sizing: border-box;
     font-size: 19px;
 
   }
+ */
+.container-fluid{
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  width: 720px;
+  box-sizing: border-box;
+  font-size: 19px;
 }
 
 img {
