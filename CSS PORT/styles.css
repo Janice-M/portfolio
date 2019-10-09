@@ -45,12 +45,12 @@ body {
 
 #twoam {
   
-  background-image: url("/home/moringa/Desktop/Assignments/landing-page/images/yemisi1.jpg");
+  background-image: url("/images/yemisi1.jpg");
   background-position: left,center ;
   background-repeat: no-repeat;
   background-attachment: fixed;
  
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: black;
 }
 
