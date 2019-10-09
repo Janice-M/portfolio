@@ -53,6 +53,9 @@ body {
   background-color: rgb(28, 28, 28);
   color: black;
 }
+.btn{
+  background: #ff7878 !important;
+}
 
 #nav-bar ul li:hover::after {
   width: 100%;
